@@ -23,8 +23,8 @@ const CreateEvent = () => {
         {/* Header */}
         <div className="bg-gradient-to-r from-primary to-secondary py-12 px-4">
           <div className="max-w-3xl mx-auto">
-            <Link to="/dashboard" className="text-white/80 hover:text-white mb-4 inline-block">
-              ← Back to Dashboard
+            <Link to="/" className="text-white/80 hover:text-white mb-4 inline-block">
+              ← Back to Tree
             </Link>
             <h1 className="text-4xl font-bold text-white mb-2">
               🎁 Create New Event
@@ -121,7 +121,7 @@ const CreateEvent = () => {
               </div>
 
               <div className="pt-6 flex gap-4">
-                <Link to="/dashboard" className="flex-1">
+                <Link to="/" className="flex-1">
                   <Button variant="outline" className="w-full text-base">
                     Cancel
                   </Button>

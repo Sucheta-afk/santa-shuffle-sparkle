@@ -2,10 +2,10 @@ import { useNavigate } from "react-router-dom";
 import Snowfall from "@/components/Snowfall";
 import OrnamentButton from "@/components/OrnamentButton";
 import christmasTree from "@/assets/christmas-tree.png";
-import ornamentRed from "@/assets/ornament-red.png";
-import ornamentGreen from "@/assets/ornament-green.png";
-import ornamentGold from "@/assets/ornament-gold.png";
-import ornamentBlue from "@/assets/ornament-blue.png";
+import ornamentRed from "@/assets/ornament-red-realistic.png";
+import ornamentGreen from "@/assets/ornament-green-realistic.png";
+import ornamentGold from "@/assets/ornament-gold-realistic.png";
+import ornamentBlue from "@/assets/ornament-blue-realistic.png";
 
 const Index = () => {
   const navigate = useNavigate();

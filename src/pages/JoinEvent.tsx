@@ -16,8 +16,8 @@ const JoinEvent = () => {
         {/* Header */}
         <div className="bg-gradient-to-r from-secondary to-primary py-12 px-4">
           <div className="max-w-3xl mx-auto">
-            <Link to="/dashboard" className="text-white/80 hover:text-white mb-4 inline-block">
-              ← Back to Dashboard
+            <Link to="/" className="text-white/80 hover:text-white mb-4 inline-block">
+              ← Back to Tree
             </Link>
             <h1 className="text-4xl font-bold text-white mb-2">
               🎄 Join Secret Santa Event
@@ -86,7 +86,7 @@ const JoinEvent = () => {
                   <Button className="w-full text-base">
                     Join Event
                   </Button>
-                  <Link to="/dashboard" className="block">
+                  <Link to="/" className="block">
                     <Button variant="outline" className="w-full text-base">
                       Cancel
                     </Button>
